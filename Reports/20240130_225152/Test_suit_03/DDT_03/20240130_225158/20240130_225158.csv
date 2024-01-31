@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+DDT_03,Chrome 120.0.0.0,,,30-01-2024 22:52:13,30-01-2024 22:52:51,37.821s,PASSED
+,,,,,,,
+Test Cases/DDT_ORANGE_HRM_03/TC_validate_Recruitment,Chrome 120.0.0.0,,,30-01-2024 22:52:14,30-01-2024 22:52:51,37.268s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,30-01-2024 22:52:15,30-01-2024 22:52:23,8.651s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 120.0.0.0,,,30-01-2024 22:52:23,30-01-2024 22:52:34,10.468s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,30-01-2024 22:52:34,30-01-2024 22:52:34,0.187s,PASSED
+"setText(findTestObject(""login_page_OR/Page_OrangeHRM/input_username""), ""Admin"")",Chrome 120.0.0.0,,,30-01-2024 22:52:34,30-01-2024 22:52:36,1.638s,PASSED
+"setText(findTestObject(""login_page_OR/Page_OrangeHRM/input_password""), ""admin123"")",Chrome 120.0.0.0,,,30-01-2024 22:52:36,30-01-2024 22:52:36,0.748s,PASSED
+"click(findTestObject(""login_page_OR/Page_OrangeHRM/button_Login""))",Chrome 120.0.0.0,,,30-01-2024 22:52:36,30-01-2024 22:52:39,2.209s,PASSED
+"click(findTestObject(""recruitment_panal_OR/Page_OrangeHRM/span_Recruitment""))",Chrome 120.0.0.0,,,30-01-2024 22:52:39,30-01-2024 22:52:42,3.486s,PASSED
+"click(findTestObject(""recruitment_panal_OR/Page_OrangeHRM/button_Add""))",Chrome 120.0.0.0,,,30-01-2024 22:52:42,30-01-2024 22:52:45,2.563s,PASSED
+"setText(findTestObject(""recruitment_panal_OR/Page_OrangeHRM/input_Full Name_firstName""), ""kumar"")",Chrome 120.0.0.0,,,30-01-2024 22:52:45,30-01-2024 22:52:46,1.596s,PASSED
+"setText(findTestObject(""recruitment_panal_OR/Page_OrangeHRM/input_Full Name_middleName""), ""pranav"")",Chrome 120.0.0.0,,,30-01-2024 22:52:46,30-01-2024 22:52:47,0.728s,PASSED
+"setText(findTestObject(""recruitment_panal_OR/Page_OrangeHRM/input_Full Name_lastName""), ""chavan"")",Chrome 120.0.0.0,,,30-01-2024 22:52:47,30-01-2024 22:52:48,0.657s,PASSED
+"click(findTestObject(""recruitment_panal_OR/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-down-fill oxd-select-text--arrow""))",Chrome 120.0.0.0,,,30-01-2024 22:52:48,30-01-2024 22:52:48,0.347s,PASSED
+"click(findTestObject(""recruitment_panal_OR/Page_OrangeHRM/span_Associate IT Manager""))",Chrome 120.0.0.0,,,30-01-2024 22:52:48,30-01-2024 22:52:48,0.445s,PASSED
+"setText(findTestObject(""recruitment_panal_OR/Page_OrangeHRM/input_Email_oxd-input oxd-input--focus oxd-input--error""), ""k@gmail.com"")",Chrome 120.0.0.0,,,30-01-2024 22:52:48,30-01-2024 22:52:49,0.855s,PASSED
+"setText(findTestObject(""recruitment_panal_OR/Page_OrangeHRM/input_Contact Number_oxd-input oxd-input--active""), ""8956235785"")",Chrome 120.0.0.0,,,30-01-2024 22:52:49,30-01-2024 22:52:50,0.903s,PASSED
+"click(findTestObject(""recruitment_panal_OR/Page_OrangeHRM/button_Save""))",Chrome 120.0.0.0,,,30-01-2024 22:52:50,30-01-2024 22:52:51,0.378s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,30-01-2024 22:52:51,30-01-2024 22:52:51,0.442s,PASSED

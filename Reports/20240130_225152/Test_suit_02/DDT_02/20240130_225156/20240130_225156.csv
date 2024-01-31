@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+DDT_02,Chrome 120.0.0.0,,,30-01-2024 22:52:12,30-01-2024 22:52:46,34.234s,PASSED
+,,,,,,,
+Test Cases/DDT_ORANGE_HRM_02/TC_validate_PIM,Chrome 120.0.0.0,,,30-01-2024 22:52:13,30-01-2024 22:52:46,32.970s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,30-01-2024 22:52:14,30-01-2024 22:52:23,9.841s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 120.0.0.0,,,30-01-2024 22:52:23,30-01-2024 22:52:32,8.904s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,30-01-2024 22:52:32,30-01-2024 22:52:33,0.169s,PASSED
+"setText(findTestObject(""login_page_OR/Page_OrangeHRM/input_username""), ""Admin"")",Chrome 120.0.0.0,,,30-01-2024 22:52:33,30-01-2024 22:52:34,1.427s,PASSED
+"setText(findTestObject(""login_page_OR/Page_OrangeHRM/input_password""), ""admin123"")",Chrome 120.0.0.0,,,30-01-2024 22:52:34,30-01-2024 22:52:35,0.882s,PASSED
+"click(findTestObject(""login_page_OR/Page_OrangeHRM/button_Login""))",Chrome 120.0.0.0,,,30-01-2024 22:52:35,30-01-2024 22:52:35,0.455s,PASSED
+"click(findTestObject(""PIM_panal_OR/Page_OrangeHRM/span_PIM""))",Chrome 120.0.0.0,,,30-01-2024 22:52:35,30-01-2024 22:52:41,5.348s,PASSED
+"setText(findTestObject(""PIM_panal_OR/Page_OrangeHRM/input""), ""kumar"")",Chrome 120.0.0.0,,,30-01-2024 22:52:41,30-01-2024 22:52:43,2.244s,PASSED
+"setText(findTestObject(""PIM_panal_OR/Page_OrangeHRM/input_Employee Id_oxd-input oxd-input--active""), ""123"")",Chrome 120.0.0.0,,,30-01-2024 22:52:43,30-01-2024 22:52:44,0.929s,PASSED
+"click(findTestObject(""PIM_panal_OR/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-down-fill oxd-select-text--arrow""))",Chrome 120.0.0.0,,,30-01-2024 22:52:44,30-01-2024 22:52:44,0.528s,PASSED
+"click(findTestObject(""PIM_panal_OR/Page_OrangeHRM/div_Full-Time Contract""))",Chrome 120.0.0.0,,,30-01-2024 22:52:44,30-01-2024 22:52:45,0.527s,PASSED
+"click(findTestObject(""PIM_panal_OR/Page_OrangeHRM/button_Search""))",Chrome 120.0.0.0,,,30-01-2024 22:52:45,30-01-2024 22:52:45,0.591s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,30-01-2024 22:52:45,30-01-2024 22:52:46,0.424s,PASSED
